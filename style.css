@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*Navigation*/
+
+.nav-container{
+    background: #EAEAEA;
+    box-shadow: 0px 8px 24px;
+    height: 72px;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+}
+nav ul{
+    display: flex;
+}
+nav.logo {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: normal;
+  font-weight: 800;
+  font-size: 64px;
+  color: black;
+}
+
+nav-items li{
+    list-style: none;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+
+}
+
+.nav-items li:nth-last-of-type(1){
+    margin: 0;
+}
+
+.nav-items li a{
+    color: black;
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+/*Header*/
+
+.header-container{
+    background: url(images/confidence.jpeg);
+}
+
+
+header h1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 75px;
+color: #EAEAEA;
+}
+
+header p{
+    position: absolute;
+    width: 573.75px;
+    height: 50px;
+    left: 80px;
+    top: 456px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+    color: #F5F5F5;
+}
+
+p1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 140%;
+/* or 67px */
+
+display: flex;
+align-items: center;
+
+/* shades/700 */
+
+color: #242424
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ 
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+ 
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+
+  }
+  .column{display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px 38px 34px 62px;
+gap: 10px;
+
+position: absolute;
+width: 200px;
+height: 120px;
+left: 1103px;
+top: 2603px;
+  }
+  }
